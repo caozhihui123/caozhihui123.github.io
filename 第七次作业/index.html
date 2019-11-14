@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style>
+			* {
+				margin: 0;
+				padding: 0;
+			}
+			
+			.flex-container {
+				display: -webkit-flex;
+				display: flex;
+				-webkit-flex-flow: row wrap;
+				-webkit-justify-content: space-around;
+				justify-content: space-around;
+				flex-flow: row wrap;
+				font-weight: bold;
+				text-align: center;
+			}
+			
+			.flex-container>* {
+				padding: 0;
+				flex: 0 100%;
+			}
+			
+			.main {
+				text-align: left;
+				background: white;
+			}
+			
+			img {
+				width: 100%;
+				height: auto;
+			}
+			
+			p {
+				color: black;
+			}
+			
+		
+			
+			.footer {
+				background: dimgrey;
+			}
+			
+			.a {
+				margin: 20px;
+				background: white;
+				box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+			}
+			
+		
+			
+			@media all and (min-width: 800px) {
+				.a {
+					flex: 0 0 auto;
+					width: 30%;
+				}
+				
+				.a1 {
+					order: 1;
+				}
+				.a2 {
+					order: 2;
+				}
+				.a3 {
+					order: 3;
+				}
+		
+			}
+		</style>
+	</head>
+
+	<body>
+		<div class="flex-container">
+			
+			<div class="a a1"><img src="img/第七次作业2.jpg">
+			<h1><font color="red">1549元</font></h1>
+				<p style="font-size: 22px;">经典铁塔焕新瓶身尽显尊贵风范，传世金燕与XO印记续写百年风范</p>
+			</div>
+			<div class="a a2"><img src="img/第七次作业3.jpg">
+			<h1><font color="red">1258元</font></h1>
+				<p style="font-size: 22px;">荟萃9升宝德区葡萄原液，融合100多种【生命之水】精髓，跨越1个世纪盛宴传奇。</p>
+			</div>
+			<div class="a a3"><img src="img/第七次作业4.jpg">
+			<h1><font color="red">668元</font></h1>
+				<p style="font-size: 22px;">香气，口感，酒体，千年酿制</p>
+			</div>
+		
+		</div>
+		<div style='margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; left: -9999px; top: -9999px; font-family: "Microsoft YaHei"; display: none; position: absolute; z-index: 999999;'>
+			<div style='background: url("http://act.cmcmcdn.com/upload/201507/43c12384e9e05adf9df29f0679a4fc01.png") no-repeat 0px 0px; margin: 0px; padding: 0px; height: 39px; text-align: center; line-height: 29px; font-size: 14px; position: relative; cursor: pointer; _background-image: url(http://act.cmcmcdn.com/upload/201507/8afc2fe48db9060fe1bdda2089e1d950.png);'>
+				<a style="margin: 0px; padding: 10px 0px 0px; width: 49px; height: 29px; color: rgb(91, 142, 178); text-decoration: none; float: left;">复制</a>
+				<a style="margin: 0px; padding: 10px 0px 0px; width: 48px; height: 29px; color: rgb(91, 142, 178); text-decoration: none; float: left;" href="###" target="_blank">搜索</a>
+				<a style="margin: 0px; padding: 0px; width: 10px; height: 39px; text-decoration: none; float: left;">&nbsp;</a>
+				<div style='background: url("http://act.cmcmcdn.com/upload/201507/932113880c8e5d352147801dfc9c21d8.png") no-repeat 0px 0px; margin: 0px; padding: 0px; left: 108px; top: 10px; width: 122px; height: 48px; text-align: left; color: rgb(91, 142, 178); line-height: 24px; font-size: 12px; display: none; position: absolute; _background-image: url(http://act.cmcmcdn.com/upload/201507/3b491068507d8f85ea7b35d756da7215.png);'><span style="margin: 0px; padding: 0px 0px 0px 30px; height: 24px; display: block;">启动快捷搜索</span><span style="margin: 0px; padding: 0px 0px 0px 30px; height: 24px; display: block;">设置</span></div>
+			</div>
+		</div>
+	</body>
+
+</html>
